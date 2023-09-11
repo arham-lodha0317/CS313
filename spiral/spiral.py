@@ -25,7 +25,7 @@ def create_spiral(number):
     if number % 2 == 0:
         number += 1
 
-    grid = [[0 for i in range(number)] for j in range(number)]
+    grid = [[0 for _ in range(number)] for _ in range(number)]
 
     # Create Spiral
 
